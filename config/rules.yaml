@@ -1,0 +1,31 @@
+defaultDir: "Others"
+createDir: true
+excludePatterns:
+  - "^\\..*"  # Exclude hidden files
+
+rules:
+  documents:
+    extensions: ["pdf", "doc", "docx", "txt", "rtf"]
+    targetDir: "Documents"
+
+  images:
+    extensions: ["jpg", "jpeg", "png", "gif", "bmp", "svg"]
+    targetDir: "Images"
+
+  screenshots:
+    extensions: ["png"]
+    namePattern: "screenshot|Screen Shot"
+    targetDir: "Screenshots"
+
+  recent:
+    extensions: ["pdf", "docx", "png", "jpg", "mp3"]  # Replace "*" with actual extensions
+    newerThan: "2024-01-01T00:00:00Z"
+    targetDir: "RecentFiles"
+
+  audio:
+    extensions: ["mp3", "wav", "flac", "aac", "m4a"]
+    targetDir: "Audio"
+
+  archives:
+    extensions: ["zip", "rar", "7z", "tar", "gz"]
+    targetDir: "Archives"

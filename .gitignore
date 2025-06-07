@@ -1,0 +1,18 @@
+# https://dart.dev/guides/libraries/private-files
+# Created by `dart pub`
+.dart_tool/
+
+# Pub package lock file (optional to ignore, but usually committed)
+# pubspec.lock
+
+# Logs
+logs/
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Ignore config files if you want to keep local config private (optional)
+# config/rules.json
+# config/rules.yaml
